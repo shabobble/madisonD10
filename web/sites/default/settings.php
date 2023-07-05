@@ -815,7 +815,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 if ($_SERVER['SERVER_NAME'] === 'madison.dev.peddigital.com') {
   $databases['default']['default'] = array (
-  'database' => 'madisonD10dev',
+  'database' => 'madisond10dev',
   /* 'database' => $_ENV['DB_DATABASE'], */
   'username' => 'pksullivan',
   /* 'username' => $_ENV['DB_USERNAME'], */
@@ -832,7 +832,7 @@ if ($_SERVER['SERVER_NAME'] === 'madison.dev.peddigital.com') {
 
 } else if ($_SERVER['SERVER_NAME'] === 'madison.qa.peddigital.com') {
   $databases['default']['default'] = array (
-  'database' => 'madisonD10qa',
+  'database' => 'madisond10qa',
   'username' => 'pksullivan',
   'password' => 'gShJ*6Gn5!',
   'prefix' => '',
@@ -844,7 +844,7 @@ if ($_SERVER['SERVER_NAME'] === 'madison.dev.peddigital.com') {
 
 } else if ($_SERVER['SERVER_NAME'] === 'madison.prod.peddigital.com') {
   $databases['default']['default'] = array (
-    'database' => 'madisonD10prod',
+    'database' => 'madisond10prod',
     'username' => 'pksullivan',
     'password' => 'Ea<88;VRJE2z"Q!V',
     'prefix' => '',
