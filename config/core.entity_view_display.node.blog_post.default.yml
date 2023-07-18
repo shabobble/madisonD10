@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.blog_post.body
     - field.field.node.blog_post.field_picture
+    - field.field.node.blog_post.field_post_category
     - node.type.blog_post
   module:
     - text
@@ -29,6 +30,14 @@ content:
       link: false
     third_party_settings: {  }
     weight: 102
+    region: content
+  field_post_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
     region: content
   links:
     settings: {  }

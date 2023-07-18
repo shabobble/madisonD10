@@ -1,0 +1,29 @@
+uuid: 405e5dd8-5763-4191-9e71-1a42874a6e3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_category
+    - node.type.blog_post
+    - taxonomy.vocabulary.p
+id: node.blog_post.field_post_category
+field_name: field_post_category
+entity_type: node
+bundle: blog_post
+label: 'Post Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      p: p
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

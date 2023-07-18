@@ -63,3 +63,5 @@ web/sites/example.settings.local.php
 /drush
 /drupal.phar
 /drupal
+
+composer.lock
